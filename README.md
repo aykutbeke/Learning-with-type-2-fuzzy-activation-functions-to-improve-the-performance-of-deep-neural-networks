@@ -9,7 +9,7 @@ We kindly ask that to cite the above mentioned paper if you use type-2 fuzzy act
 # How to use type-2 fuzzy activation functions in your model  
 1) Download or clone the repository into a convenient directory. Open MATLAB 2019a or a newer version
 2) Add default layer folder to your path
-3) While constructing your model, just add 'SIT2FRU' or 'SIT2FMLayerOpt' class as an activation function and insert the appropriate neuron number as an input argument. In the following, we give an example:  
+3) While constructing your model, just add 'SIT2FRU' or 'SIT2FMLayerOpt' class as an activation function and insert the appropriate layer size as an input argument. In the following, we give an example:  
         
         FF_NetworkLayers = [sequenceInputLayer(size(inputRegressor{1}',1),'Name','FF-Giris')
         fullyConnectedLayer(60,'Name','RegressionLayer')
